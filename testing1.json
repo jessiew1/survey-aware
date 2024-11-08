@@ -1,0 +1,53 @@
+[
+    {
+        "esm_type": 1,
+        "esm_title": "Your next Survey is ready",
+        "esm_instructions": "Click the link below to complete your survey.",
+        "esm_trigger": "Your next Survey is ready!",
+        "esm_link": "https://wustlpsych.az1.qualtrics.com/jfe/form/SV_eK7CCmrAcKeNmLA",
+        "esm_expiration_threshold": 90,  // in seconds, 1.5 mins
+        "esm_notification_timeout": 180,  // 3 minutes apart for each notification
+        "esm_reminder_count": 1,
+        "esm_reminder_threshold": 90, // 1.5 mins for reminder if not clicked
+        "esm_schedule": [
+            {
+                "hour": 0,
+                "minute": 0
+            }
+        ]
+    },
+    {
+        "esm_type": 1,
+        "esm_title": "Your next Survey is ready",
+        "esm_instructions": "Click the link below to complete your survey.",
+        "esm_trigger": "Your next Survey is ready!",
+        "esm_link": "https://wustlpsych.az1.qualtrics.com/jfe/form/SV_eK7CCmrAcKeNmLA",
+        "esm_expiration_threshold": 90,
+        "esm_notification_timeout": 180,
+        "esm_reminder_count": 1,
+        "esm_reminder_threshold": 90,
+        "esm_schedule": [
+            {
+                "hour": 0,
+                "minute": 3  // 3 minutes after the first
+            }
+        ]
+    },
+    {
+        "esm_type": 1,
+        "esm_title": "Your next Survey is ready",
+        "esm_instructions": "Click the link below to complete your survey.",
+        "esm_trigger": "Your next Survey is ready!",
+        "esm_link": "https://wustlpsych.az1.qualtrics.com/jfe/form/SV_eK7CCmrAcKeNmLA",
+        "esm_expiration_threshold": 90,
+        "esm_notification_timeout": 180,
+        "esm_reminder_count": 1,
+        "esm_reminder_threshold": 90,
+        "esm_schedule": [
+            {
+                "hour": 0,
+                "minute": 6  // 3 minutes after the second
+            }
+        ]
+    }
+]
